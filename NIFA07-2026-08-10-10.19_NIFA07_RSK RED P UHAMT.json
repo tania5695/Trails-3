@@ -1,0 +1,16 @@
+{
+    "user": "NIFA07",
+    "controlset": "NIFA07-2026-08-10-10.19",
+    "scenario": "RSK RED P UHAMT",
+    "summary": "Creation of a new scenario looking at high value payments by a Priv Account user to new and unknown beneficiaries on the first day of usage (RSK RED).",
+    "fdesc": "Fraudsters know that scams/frauds are limited by the time in which they are believable, hence once they have compromised a customer they will try to move funds rapidly. This leads to situations where multiple payments are made to a single mule/recipient bene. This scenario is therefore designed apply limits to what a single user can send without interruption, it will trigger on >10K payments by a Priv account user when they have already made at least 1 payment to the same new and unknown bene and it is the first day that bene is being used. There is the opportunity for some false positives but in many cases there is little reason to send multiple payments to a new bene on day 1 of its usage. This scenario works in conjunction with the other RSK RED scenarios but kicks in earlier due to focus on high value payments. There is scope and ongoing development for more scenarios in the RSK RED group but also RSK AMBER and RSK YELLOW. Following Changes in NIFA07-2026-08-10-10.19 this scenario was set to out of hours periods only (10pm-9am).",
+    "evid_desc": "This scenario's design was not inspired by any particular case and is acting as a backstop type scenario.",
+    "cases": [
+        "FRD0002290",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A"
+    ],
+    "sres": "A variety of simulations were undertaken for this controlset, samples and results can be seen below."
+}
